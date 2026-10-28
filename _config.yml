@@ -1,0 +1,6 @@
+title: shikhragimov
+url: https://shikhragimov.github.io
+baseurl: /shikhragimov
+markdown: kramdown
+kramdown:
+  smart_quotes: ["apos", "apos", "quot", "quot"]

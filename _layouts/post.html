@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title }}</title>
+  <link rel="stylesheet" href="{{ '/style.css' | relative_url }}">
+  {% include google.html %}
+</head>
+<body>
+  <p class="home"><a href="{{ '/' | relative_url }}">{{ site.title }}</a></p>
+  <article>
+    <h1>{{ page.title }}</h1>
+    {% if page.date %}
+    <p class="date"><time datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: "%B %-d, %Y" }}</time></p>
+    {% endif %}
+    {{ content }}
+  </article>
+</body>
+</html>
