@@ -175,11 +175,11 @@ article img {
 @media (prefers-color-scheme: dark) {
   :root {
     color-scheme: dark;
-    --ink: #f3efe8;
-    --paper: #141210;
-    --muted: #a89f93;
-    --line: #3a342c;
-    --rule: #f3efe8;
-    --code: #2a261f;
+    --ink: #f2f2f2;
+    --paper: #333333;
+    --muted: #b0b0b0;
+    --line: #4d4d4d;
+    --rule: #f2f2f2;
+    --code: #404040;
   }
 }
